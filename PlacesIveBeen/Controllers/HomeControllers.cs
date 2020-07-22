@@ -5,10 +5,13 @@ namespace PlacesIveBeen.Controllers
 {
   public class HomeController : Controller
   {
-    [Route("/hello")]
-    public string Hello() { return "Hello!"; }
+    [Route("/")]
+    public ActionResult Index()
+    {
+      return View();
+    }
 
-    [Route("/form")]
-    public ActionResult Form() { return View(); }
+    // [Route("/form")]
+    // public ActionResult Form() { return View(); }
   }
 }
