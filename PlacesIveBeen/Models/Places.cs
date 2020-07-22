@@ -14,7 +14,7 @@ namespace PlacesIveBeen.Models
     public Places(string placeName, string travelingPartner, string journalEntry)
     {
       PlaceName = placeName;
-      // Image = Image;
+      // Image = image;
       TravelingPartner = travelingPartner;
       JournalEntry = journalEntry;
       _instances.Add(this);

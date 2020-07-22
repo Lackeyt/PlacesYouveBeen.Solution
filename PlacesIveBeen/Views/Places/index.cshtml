@@ -1,4 +1,4 @@
-@using Places.Models;
+@using PlacesIveBeen.Models;
 
 <h1>Places I've Been</h1>
 
@@ -9,7 +9,7 @@
 <ul>
   @foreach (Places Places in Model)
   {
-    <li>Place: @places.PlacesName<br> Travling Partner: @places.TravlingPartner<br> Journal: @places.JournalEntry<br> </li>
+    <li>Place: @Places.PlaceName<br> Travling Partner: @Places.TravelingPartner<br> Journal: @Places.JournalEntry<br> </li>
   }
 
 </ul>
