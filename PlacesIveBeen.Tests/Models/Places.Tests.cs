@@ -1,7 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using PlacesIveBeen;
+using Places.Models;
 
-namespace PlacesIveBeen.Tests
+namespace Places.Tests
 {
   [TestClass]
   public class ClassNameTests
