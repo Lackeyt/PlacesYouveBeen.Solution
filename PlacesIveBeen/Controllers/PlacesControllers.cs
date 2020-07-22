@@ -15,16 +15,23 @@ namespace PlacesIveBeen.Controllers
     }
     
     [HttpGet("/Places/New")]
-    public ActionResult CreateForms()
+    public ActionResult New()
     {
       return View();
     }
 
     [HttpPost("/Places")]
-    public ActionResult AddPlaceToList(string placeName, string travelingPartner, string journalEntry)
+    public ActionResult Create(string placeName, string travelingPartner, string journalEntry)
     {
       Places newPlaces = new Places(placeName, travelingPartner, journalEntry);
       return RedirectToAction("Index");
+    }
+
+    [HttpGet("/Places/{id}")]
+    public ActionResult Show(int id)
+    {
+      Places foundPlace = Places.Find(id);
+      return View(foundPlace);
     }
   }
 }
