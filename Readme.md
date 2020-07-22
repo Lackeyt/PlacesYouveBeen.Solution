@@ -1,13 +1,13 @@
-# _new template_
+# _Places I've Been_
 
-#### _{Brief description of application}, 2020 ver 1.0_
+#### _An application for places I've been through the use of HTTP CRUD Methods, 2020 ver 1.0_
 
-#### By _Ian Gregg & (Co author)_
-[new-template-for-code-C]()
+#### By _Ian Gregg & Tyson Lackey_
+[Places-Ive-been](https://github.com/oldgregg89/Places-You-ve-Been-Solution)
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_An application for places I've been through the use of HTTP CRUD Methods_
 
 ## Setup/Installation Requirements
 
@@ -19,18 +19,14 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 * type dotnet build in the command line to compile the code
 * create a .gitignore file and store the bin and obj folders in .gitignore
 * type dotnet run in the command line to run the program
-
 __
 
 ## Specs
 
 | Behavior    | Input | Output |
 | :---------- | ----- | -----: |
-| behavior 1 |  |  |
-| behavior 2 |  |  |
-| behavior 3 |  |  |
-| behavior 4 |  |  |
-
+| Places object creates successfully  |  -     |  -     |
+| Successfully returns list of all objects | Places.GetAll() | -list of all objects- |
 
 ## Known Bugs
 
@@ -38,7 +34,10 @@ _No known bugs_
 
 ## Support and contact details
 
-_Contact Ian Gregg: <iangregg188@gmail.com>_
+_Contact 
+Ian Gregg: <iangregg188@gmail.com>
+or 
+Tyson Lackey <lackeyt90@gmail.com>_
 
 ## Technologies Used
 
@@ -46,7 +45,7 @@ _The Technologies used in the making of this software was Chrome browser, Visual
 
 ### License
 
-Copyright (c) 2020 **_Ian Gregg_**
+Copyright (c) 2020 **_Ian Gregg & Tyson Lackey_**
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
